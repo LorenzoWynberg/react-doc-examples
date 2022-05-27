@@ -4,9 +4,7 @@ function formatName(user) {
 
 function App(props) {
   return (
-    <div className="App">
-      <h1>Hello, {formatName(props.user)}</h1>
-    </div>
+    <h1>Hello, {formatName(props.user)}</h1>
   );
 }
 

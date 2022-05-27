@@ -7,14 +7,10 @@ const root = ReactDOM.createRoot(
   document.getElementById('root')
 );
 
-const user = {
-  firstName: 'Lorenzo',
-  lastName: 'Wynberg'
-};
-
 root.render(
   <React.StrictMode>
-    <App user={user}/>
+    <App user={{firstName: 'Lorenzo', lastName: 'Wynberg'}}/>
+    <App user={{firstName: 'John', lastName: 'Doe'}}/>
   </React.StrictMode>
 );
 
