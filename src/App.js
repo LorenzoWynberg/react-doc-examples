@@ -2,15 +2,10 @@ function formatName(user) {
   return user.firstName + ' ' + user.lastName;
 }
 
-const user = {
-  firstName: 'Lorenzo',
-  lastName: 'Wynberg'
-};
-
-function App() {
+function App(props) {
   return (
     <div className="App">
-      <h1>Hello, {formatName(user)}</h1>
+      <h1>Hello, {formatName(props.user)}</h1>
     </div>
   );
 }
