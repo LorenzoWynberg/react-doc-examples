@@ -1,30 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-//import Clock from './Clock';
+import NumberList from './components/NumberList';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root')
 );
 
-const numbers = [1,2,3,4,5]
-
-function ListItem(props) {
-  // Correct! There is no need to specify the key here:
-  return <li>{props.value}</li>;
-}
-
-function NumberList(props) {
-  const numbers = props.numbers;
-  return (
-    <ul>
-      {numbers.map((number) =>
-        <ListItem key={number.toString()}
-                  value={number} />
-      )}
-    </ul>
-  );
-}
+const numbers = [1,2,3,4,5];
 
 root.render(
   <NumberList numbers={numbers} />
