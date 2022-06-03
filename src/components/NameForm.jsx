@@ -58,4 +58,6 @@ export default NameForm;
  * code, you can now pass the value to other UI elements too, 
  * or reset it from other event handlers.
  * 
+ * More info
+ * https://reactjs.org/docs/forms.html#controlled-components
  */

@@ -45,4 +45,7 @@ export default FlavorForm;
  * uses a value attribute on the root select tag. 
  * This is more convenient in a controlled component 
  * because you only need to update it in one place.
+ * 
+ * More info
+ * https://reactjs.org/docs/forms.html#the-select-tag
  */

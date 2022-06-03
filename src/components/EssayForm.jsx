@@ -35,11 +35,16 @@ class EssayForm extends React.Component {
 
 export default EssayForm;
 
-/* 
+/**
+ * The textarea Tag
+ * 
  * In React, a <textarea> uses a 
  * value attribute instead. This way, a 
  * form using a <textarea> can be written 
  * very similarly to a form that uses a single-line input
  * Notice that this.state.value is initialized in 
  * the constructor, so that the text area starts off with some text in it.
+ * 
+ * More info 
+ * https://reactjs.org/docs/forms.html#the-textarea-tag
 */
