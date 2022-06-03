@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import FlavorForm from './components/FlavorForm';
+import ImgUploadForm from './components/ImgUploadForm';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -8,7 +8,7 @@ const root = ReactDOM.createRoot(
 );
 
 root.render(
-  <FlavorForm />
+  <ImgUploadForm />
 );
 
 // If you want to start measuring performance in your app, pass a function
