@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import NumberList from './components/NumberList';
+import NameForm from './components/NameForm';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(
@@ -10,7 +10,7 @@ const root = ReactDOM.createRoot(
 const numbers = [1,2,3,4,5];
 
 root.render(
-  <NumberList numbers={numbers} />
+  <NameForm />
 );
 
 // If you want to start measuring performance in your app, pass a function
